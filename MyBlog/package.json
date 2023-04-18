@@ -1,0 +1,36 @@
+{
+  "name": "tjxblog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "ajax": "^0.0.4",
+    "axios": "^0.26.0",
+    "core-js": "^3.6.5",
+    "dotenv": "^16.0.0",
+    "element-ui": "^2.15.6",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "markdown-it": "^12.3.2",
+    "mockjs": "^1.1.0",
+    "vanilla-tilt": "^1.7.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-router": "~4.5.15",
+    "@vue/cli-plugin-vuex": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

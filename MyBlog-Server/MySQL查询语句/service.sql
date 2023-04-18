@@ -1,0 +1,2 @@
+USE myblog;
+SHOW TABLES;

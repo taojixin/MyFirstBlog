@@ -1,0 +1,42 @@
+/* 全局演示表 */
+html,
+body,
+#app {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  min-width: 750px;
+}
+
+body {
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+/* 更改滚动条样式 */
+/* 滚动条整体部分 可以设置宽度高度等 */
+::-webkit-scrollbar
+{
+    width: 5px;
+    /* 高度：x 轴方向的滚动条高度 */
+    height: 5px;
+    background-color: transparent;
+}
+/* 外出轨道 */
+::-webkit-scrollbar-track
+{
+    border-radius: 10px;
+    background-color: transparent;
+}
+/* 滚动的滑块 */
+::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #c2d0e1;
+}
